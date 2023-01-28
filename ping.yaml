@@ -1,0 +1,7 @@
+- name: update fact cache
+  hosts: all
+  gather_facts: yes
+
+  tasks:
+    - name: ping this shit...
+      ping:
